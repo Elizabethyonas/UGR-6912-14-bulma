@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    </head>
     <title>Home</title>
-    <body>
-        <h4>Elizabet Yonas</h4>
-        <a href="/Contact.html">Contact</a>
-        <a href="/Resume.html">Resume</a>
-        <a href="/PersonalProfile.html">PP</a>
-        <a href="/Projects.html">Projects</a> <br>
-        <img src="images/ProfilePhoto.jpg" alt="Profile Picture">
-        <p> My name is Elizabet Yonas, and I am a software engineering student at Addis Ababa Institute of Technology with a strong passion for technology. I am deeply motivated to explore the ever-evolving world of software and contribute to the development of innovative solutions. Currently pursuing my studies in software engineering, I am gaining a solid foundation in various programming languages, software development methodologies, and problem-solving techniques.
-            Throughout my academic journey, I have been exposed to a wide range of software engineering concepts, including web development, mobile app development, database management, and algorithm design. I find immense joy in tackling complex challenges and finding elegant solutions through coding and logical reasoning.part from my technical interests, I also enjoy collaborating with like-minded individuals and engaging in team projects. I value effective communication and believe it plays a vital role in successful software development, as it fosters collaboration and ensures that everyone's ideas are heard and valued.</p>
-        <br>
-        <audio controls autoplay>
-            <source src="images/Web.m4a" type="MPEG-4">
-        Your browser does not support the audio element.
-        </audio>
-        <br>
-        <footer>
-            <a href="/Contact.html">Contact</a> 
-            <a href="/Resume.html">Resume</a>
-            <a href="/PersonalProfile.html">PP</a>
-            <a href="/Projects.html">Projects</a>
-        </footer>
+    <body class="hero is-fullheight has-background-black has-text-white">
+        <div class="is-flex is-justify-content-flex-start">
+            <h4 class="name">Elizabet Yonas</h4>
+        </div>
+        <div class="navbar is-flex is-justify-content-flex-end">
+            <div class="is-flex">
+              <div class="column">
+                <button>
+                  <a class="nav " href="Home.html">Home</a>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                <a class="nav" href="Resume.html">Resume</a>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                  <a class="nav" href="PersonalProfile.html">PP</a>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                    <a class="has-text-centered" href="Projects.html">Projects</a>
+                </button>
+              </div>
+            </div>
+          
+    
+        </div>
+        <div class="is-flex is-justify-content-center ">
+    
+            <img class=" ml-6 image is-128x128 is-centered" src="images/ProfilePhoto.jpg" alt="Profile Picture">
+        </div>
+        <div class="box has-white-border has-background-black has-text-white">
+            <p> My name is Elizabet Yonas, and I am a software engineering student at Addis Ababa Institute of Technology with a strong passion for technology. I am deeply motivated to explore the ever-evolving world of software and contribute to the development of innovative solutions. Currently pursuing my studies in software engineering, I am gaining a solid foundation in various programming languages, software development methodologies, and problem-solving techniques.
+                Throughout my academic journey, I have been exposed to a wide range of software engineering concepts, including web development, mobile app development, database management, and algorithm design. I find immense joy in tackling complex challenges and finding elegant solutions through coding and logical reasoning.part from my technical interests, I also enjoy collaborating with like-minded individuals and engaging in team projects. I value effective communication and believe it plays a vital role in successful software development, as it fosters collaboration and ensures that everyone's ideas are heard and valued.</p>
+            <br>
+        </div>
+        <div class="Audio">
+            <audio controls autoplay>
+                <source src="images/Web.m4a" type="audio/x-m4a">
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="has-background-black is-flex is-justify-content-center">
+            <footer>
+                <a class="a1 mr-2 is-underlined is-size-5 has-text-weight-bold" href="Contact.html">Contact</a> 
+                <a class="a2 mr-2 is-underlined is-size-5 has-text-weight-bold" href="Resume.html">Resume</a>
+                <a class="a3 mr-2 is-underlined is-size-5 has-text-weight-bold" href="PersonalProfile.html">PP</a>
+                <a class="a4 is-underlined is-size-5 has-text-weight-bold" href="Projects.html">Projects</a>
+            </footer>
+        </div>
     </body>
 </html>
